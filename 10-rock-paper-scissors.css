@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(24, 22, 22);
+  color: rgb(250, 245, 245);
+  font-family: Arial;
+}
+
+.title {
+  font-size:35px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.move-icon {
+  height: 70px;
+}
+
+.move-button {
+  background-color: rgb(165, 28, 28);
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 1px rgba(186, 181, 181, 0.553);
+  transition: box-shadow 0.15s,opacity 0.15s;
+}  
+
+.move-button:hover{
+  opacity: 0.7;
+}
+
+.move-button:active{
+  opacity: 0.4;
+  box-shadow: 0px 0px 0px;
+  cursor: auto;
+}
+    
+
+.result {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 120px;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.score {
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reset-score-button {
+  background-color: rgb(14, 13, 13);
+  color: rgb(227, 229, 221);
+  border: solid;
+  border-color: rgb(187, 182, 182);
+  border-width: 1px;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px 25px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+  transition: opacity 0.15s,box-shadow 0.15s;
+}
+
+.reset-score-button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+
+}
+.reset-score-button:active{
+  opacity: 0.5;
+  box-shadow: 0px 0px 0px;
+
+}
+
+.js-moves{
+  font-size: 20px;
+}
+
+.game{
+  margin-left: 40px;
+}
